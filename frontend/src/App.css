@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    color-scheme: dark;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+    padding-top: 10rem;
+
+    gap:5rem;
+
+    h1{
+        font-size: 4rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+}
+
