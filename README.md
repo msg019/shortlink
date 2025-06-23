@@ -29,8 +29,9 @@ cd shortlink
 cd backend  
 python -m venv venv  
 source venv/bin/activate  
-pip install -r requirements.txt   
-python server.py  
+pip install -r requirements.txt  
+cd app   
+python main.py  
 
 ### set up Frontend
 cd frontend  
